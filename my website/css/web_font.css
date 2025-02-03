@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'myFont';
+    src:  url('../font/Arturito-Slab-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#title{
+    color: rgba(196, 217, 255, 0.926);
+    text-shadow: 2px 2px 4px #122ac6;
+}
+a.instructions{
+    font-family: 'myFont', sans-serif;
+    font-size: 18px;
+    color: #25a4d2cf;
+ bottom:6px;
+    position: relative;
+}
+ul#above_list{
+    list-style-image: url('../image/xuanwo.png'); /* 使用自定义图像 */
+    list-style-position: inside; /* 确保标记在列表项的内部 */
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 10px; ;
+}
+
+ul.level_one{
+    list-style-image: url('../image/heart.png'); /* 使用自定义图像 */
+    list-style-position: inside; /* 确保标记在列表项的内部 */
+}
+ul.level_two{
+    list-style: none; /* 隐藏项目标记 */
+    padding-top: 2px;
+    padding-left: 54px;
+}

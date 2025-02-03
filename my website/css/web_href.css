@@ -1,0 +1,51 @@
+.instructions-link {
+    color: #cc00ff8c; /* 设置链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold; /* 设置字体加粗 */
+    bottom: 3px;
+    position: relative;
+
+}
+#global_instructions-link {
+    color: #a70fcd; /* 设置链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold; /* 设置字体加粗 */
+    top: 5px;
+    position: relative;
+}
+#controller_link{
+    color: #247bab; /* 设置链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold; /* 设置字体加粗 */
+    font-size: 20px;
+    padding: 5px 10px; /* 添加内边距 */
+    border-radius: 8px; /* 设置圆角 */
+    display: inline; /* 使边框生效 */
+    border-style: outset; /* 设置边框样式 */
+    border-color: rgba(125, 125, 125, 0.464); /* 设置边框颜色 */
+    border-width: 0.3em;
+}
+#instructions_link{
+    color: #2ea5d4; /* 设置链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold; /* 设置字体加粗 */
+    font-size: 20px;
+    padding: 5px 10px; /* 添加内边距 */
+    border-radius: 8px; /* 设置圆角 */
+    border-style: outset; /* 设置边框样式 */
+    border-color: rgba(125, 125, 125, 0.373); /* 设置边框颜色 */
+    border-width: 0.3em;
+    display: inline; /* 使边框生效 */
+}
+#register_link{
+    color: #2fb8ee; /* 设置链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold; /* 设置字体加粗 */
+    font-size: 20px;
+    padding: 5px 10px; /* 添加内边距 */
+    border-radius: 8px; /* 设置圆角 */
+    border-style: outset; /* 设置边框样式 */
+    border-color: rgba(125, 125, 125, 0.282); /* 设置边框颜色 */
+    border-width: 0.3em;
+    display: inline; /* 使边框生效 */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>多个开关控制多个音频示例</title>
+</head>
+<body>
+
+<!-- 音频1 -->
+<audio id="audio1" src="音频文件1路径.mp3"></audio>
+<label>
+    <input type="checkbox" id="switch1" onchange="toggleAudio('audio1', 'switch1')"> 开关1
+</label>
+
+<!-- 音频2 -->
+<audio id="audio2" src="音频文件2路径.mp3"></audio>
+<label>
+    <input type="checkbox" id="switch2" onchange="toggleAudio('audio2', 'switch2')"> 开关2
+</label>
+
+<!-- 音频3 -->
+<audio id="audio3" src="音频文件3路径.mp3"></audio>
+<label>
+    <input type="checkbox" id="switch3" onchange="toggleAudio('audio3', 'switch3')"> 开关3
+</label>
+
+<script>
+    function toggleAudio(audioId, switchId) {
+        var audio = document.getElementById(audioId);
+        var switchControl = document.getElementById(switchId);
+        if (switchControl.checked) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script>
+
+</body>
+</html>

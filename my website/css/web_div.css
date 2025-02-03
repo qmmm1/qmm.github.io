@@ -1,0 +1,47 @@
+.container{
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.global_controller {
+    border-width:0.3em; 
+    border-left-style: solid;
+    border-color: rgba(23, 189, 189, 0.601);
+    padding-left: 10%; 
+    color: rgb(165, 42, 42);
+    background-color: rgba(161, 209, 237, 0.504);
+  }
+.controller{
+    border-width:0.3em; 
+    border-left-style: solid;
+}
+#cc_awake_introduce{
+    color: #a70fcd;
+}
+.base_trigger_introduce{
+   color: #da7dabcf;
+}
+.advance_trigger_introduce{
+color: #d23d88;
+}
+.base_instructions_introduce{
+color:rgba(149, 104, 157, 0.863)
+}
+.advance_instructions_introduce{
+color:rgb(132, 49, 132)
+}
+#count_table{
+    background-color: antiquewhite;
+}
+.header{
+    border-width:0.3em; 
+    border-left-style: solid;
+    border-color: rgb(162, 162, 39);
+    background-color: beige;
+    padding-bottom: 11px;
+}
+.counter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

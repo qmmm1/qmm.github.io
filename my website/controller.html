@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css\state_switch.css">
+<link rel="stylesheet" href="css\trigger_button.css">
+<link rel="stylesheet" href="css\web_div.css">
+<link rel="stylesheet" href="css\web_href.css">
+<link rel="stylesheet" href="css\web_font.css">
+<script src="js\run_audio.js">
+</script>
+<meta charset="utf-8">
+<title>ll.com</title>
+</head>
+<body>
+ 
+<audio id="stream" src="test_audio\stream.mp3"></audio>
+<audio id="sensitive" src="test_audio\sensitive.mp3"></audio>
+<audio id="erupt" src="test_audio\erupt.mp3"></audio>
+<audio id="lock_on" src="test_audio\lock on.mp3"></audio>
+<audio id="lock_off" src="test_audio\lock off.mp3"></audio>
+<audio id="cc awake_on" src="test_audio\cc awake on.mp3"></audio>
+<audio id="cc awake_off" src="test_audio\cc awake off.mp3"></audio>
+<audio id="cock addicted_on" src="test_audio\cock addicted on.mp3"></audio>
+<audio id="cock addicted_off" src="test_audio\cock addicted off.mp3"></audio>
+<audio id="pussy feet_on" src="test_audio\pussy feet on.mp3"></audio>
+<audio id="pussy feet_off" src="test_audio\pussy feet off.mp3"></audio>
+<audio id="voiceless_on" src="test_audio\voiceless on.mp3"></audio>
+<audio id="voiceless_off" src="test_audio\voiceless off.mp3"></audio>
+<audio id="losing horizons_on" src="test_audio\losing horizons on.mp3"></audio>
+<audio id="losing horizons_off" src="test_audio\losing horizons off.mp3"></audio>
+<audio id="dollish_on" src="test_audio\dollish on.mp3"></audio>
+<audio id="dollish_off" src="test_audio\dollish off.mp3"></audio>
+<div class="container">
+<div class="header">
+<h1 id="title"> Private TJ website</h1>
+<a href="controller.html" id="controller_link">controller</a>
+<a href="instructions_introduce.html" id="instructions_link">introduction</a>
+<a href="register.html" id="register_link">register</a>
+</div> 
+<div class="global_controller">
+<h3 style="margin: 0px;">global controller</h3>
+<a href="instructions_introduce.html#cc awake" id="global_instructions-link" >CC awake</a>
+<a>
+<label class="global_switch">
+  <input type="checkbox" id="cc awake_switch" onclick="switchbox_playAudio('cc awake_on','cc awake_off',this)">
+  <span class="global_slider round"></span>
+ </label>
+</a>
+</div>
+<div class="controller">
+<ul id="above_list">
+  <li ><a class="instructions">triggers</a>
+    <ul class="level_one">
+      <li>
+        <button class="trigger-button" onclick="button_playAudio('stream')">stream</button>
+      </li>
+      <li>
+        <button class="trigger-button" onclick="button_playAudio('sensitive')">sensitive</button>
+      </li>
+      <li>
+        <button class="trigger-button" onclick="button_playAudio('erupt')">erupt</button>
+      </li>
+    </ul>
+  </li>
+    <li><a class="instructions">Safe instructions<a>
+      <ul class="level_two">
+         <li>
+          <a href="instructions_introduce.html#lock" class="instructions-link">lock </a><label class="switch">
+          <input type="checkbox" id="lock_switch" onclick="switchbox_playAudio('lock_on','lock_off',this)">
+          <span class="slider round"></span>
+         </label>
+        </li>
+      </ul>
+    </li>
+    <li><a class="instructions">Low risk instructions</a>
+      <ul class="level_two">
+         <li>
+          <a href="instructions_introduce.html#cock addicted" class="instructions-link">cock addicted </a><label class="switch">
+          <input type="checkbox" id="cock addicted_switch" onclick="switchbox_playAudio('cock addicted_on','cock addicted_off',this)">
+          <span class="slider round"></span>
+         </label>
+         </li>
+         <li>
+          <a href="instructions_introduce.html#pussy feet" class="instructions-link">pussy feet</a> <label class="switch">
+          <input type="checkbox" id="pussy feet_switch" onclick="switchbox_playAudio('pussy feet_on','pussy feet_off',this)">
+          <span class="slider round"></span>
+         </label>
+        </li>
+      </ul>
+    </li>
+    <li><a class="instructions">Middle risk instructions</a>
+     <ul class="level_two">
+         <li>
+          <a href="instructions_introduce.html#voiceless" class="instructions-link">voiceless</a> <label class="switch">
+          <input type="checkbox" id="voiceless_switch" onclick="switchbox_playAudio('voiceless_on','voiceless_off',this)">
+          <span class="slider round"></span>
+         </label>
+        </li>
+
+     </ul>
+     </li> 
+     <li><a class="instructions">High risk instructions</a>
+      <ul class="level_two">
+        <li>
+          <a href="instructions_introduce.html#losing horizons" class="instructions-link">losing horizons</a> <label class="switch">
+          <input type="checkbox" id="losing horizons_switch" onclick="switchbox_playAudio('losing horizons_on','losing horizons_off',this)">
+          <span class="slider round"></span>
+         </label></li>
+         <li>
+          <a href="instructions_introduce.html#dollish" class="instructions-link">dollish</a> <label class="switch">
+          <input type="checkbox" id="dollish_switch" onclick="switchbox_playAudio('dollish_on','dollish_off',this)">
+          <span class="slider round"></span>
+         </label></li>
+        </ul>
+      </li>                                                            
+  </ul>
+ </div>
+</body>
+</html>
